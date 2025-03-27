@@ -7,8 +7,28 @@
 body {
     background-color: #D3D3D3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.app-section {
+    padding: 1em 5em;
+    background-color: #c4c4c4;
+    margin: 1em;
+}
+
+.app-section-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3em; 
+
 }
 
 
+.app-section-bottom-img img {
+    border:solid 1px rgb(41, 40, 40);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;   
+}
 
 
