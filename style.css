@@ -9,6 +9,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+.video-section {
+    width: 100%;
+    padding: 1em 5em;
+    margin: 1em;
+    text-align: center;
+    background-color: darkgray;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
