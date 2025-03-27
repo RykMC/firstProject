@@ -10,5 +10,54 @@ body {
 }
 
 
+.hero-section {
+    display: flex;
+    padding: 1em 5em;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+
+.hero-section-left {
+    width: 20em;
+    background-color: #EDEDED;
+}
+
+
+.hero-section-left-top {
+    margin: 1em;
+    padding: 0.5em;
+    background-color: #FFFFFF;
+    width: 70%
+}
+.hero-section-left-middle {
+    margin-top: 2em;
+    padding: 1em;
+}
+.hero-section-left-bottom {
+    margin: 2em;
+}
+
+button {
+    margin-top: 10px;
+    padding: 3px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.hero-section-right {
+    background-color: #EDEDED;
+    width: 12em;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.hero-section-right-top {
+    margin-top: 2em;
+    padding: 1em;
+    padding-top: 85%
+}
 
 
