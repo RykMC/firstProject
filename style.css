@@ -1,291 +1,323 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #d3d3d3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  header {
-    background-color: #8f8f8f;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  h1 {
-    font-weight: 400;
-    background-color: #ffffff;
-    font-size: 24px;
-    line-height: 100%;
-    width: 300px;
-    height: 59px;
-    top: 42px;
-    left: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-  }
-  
-  li {
-    background-color: #ffffff;
-    width: 130px;
-    height: 58.4px;
-    top: 42.37px;
-    left: 793.81px;
-    font-weight: 400;
-    font-size: 24px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1rem;
-  }
-  
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    margin-right: 2rem;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .hero-section {
-    display: flex;
-    padding: 1em 5em;
-    justify-content: space-evenly;
-    margin: 1em;
-  }
-  
-  .hero-section-left {
-    width: 20em;
-    background-color: #ededed;
-  }
-  
-  .hero-section-left-top {
-    margin: 1em;
-    padding: 0.5em;
-    background-color: #ffffff;
-    width: 70%;
-  }
-  .hero-section-left-middle {
-    margin-top: 2em;
-    padding: 1em;
-  }
-  .hero-section-left-bottom {
-    margin: 2em;
-  }
-  
-  button {
-    margin-top: 10px;
-    padding: 3px;
-    width: 100px;
-    height: 30px;
-    border: none;
-  }
-  
-  .hero-btn {
-    margin-top: 10px;
-    padding: 3px;
-    width: 100px;
-    height: 30px;
-    border: none;
-    background-color: #ffffff;
-    border-radius: 5px;
-  }
-  
-  .hero-section-right {
-    background-color: #ededed;
-    width: 12em;
-    border-radius: 30px;
-    text-align: center;
-  }
-  
-  .hero-section-right-top {
-    margin-top: 2em;
-    padding: 1em;
-    padding-top: 85%;
-  }
-  
-  .trusted-section {
-    background-color: #d6d6d6;
-    height: 296px;
-    top: 724px;
-    border: 1px;
-  }
-  
-  .trusted-section p {
-    font-size: 18px;
-    line-height: 100%;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    padding: 60px;
-  }
-  
-  .image-gallery-img {
-    width: 200px;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  .image-gallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .app-section {
-    padding: 1em 5em;
-    background-color: #c4c4c4;
-    margin: 1em auto;
-    text-align: center;
-  }
-  
-  .app-section-bottom {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 3em;
-  }
-  
-  .app-section-bottom-img img {
-    border: solid 1px rgb(41, 40, 40);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-  }
-  
-  .why-section {
-    height: 808px;
-    background-color: #ededed;
-    text-align: center;
-  }
-  
-  .why-section h2 {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
-  }
-  
-  .why-section p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 100%;
-  }
-  
-  .why-section img {
-    height: 100px;
-    border-radius: 100%;
-  }
-  
-  .all {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
-    margin-left: 25rem;
-    margin-right: 25rem;
-    margin-top: 8rem;
-  }
-  
-  .money-section {
-    padding: 1em 5em;
-    margin: 1em;
-    text-align: center;
-    background-color: #c4c4c4;
-  }
-  
-  .money-section-bottom {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .money-section-bottom-item {
-    width: 8em;
-    background-color: #ffffff;
-    font-size: 20px;
-    padding-top: 2em;
-    padding-bottom: 0.5em;
-    margin-top: 1em;
-  }
-  .money-section-bottom-item p {
-    margin-top: 5em;
-  }
-  
-  .money-section-bottom-item button {
-    width: 9em;
-    height: 2em;
-    border: none;
-  }
-  
-  .video-section {
-    width: 100%;
-    padding: 1em 5em;
-    margin: 1em;
-    text-align: center;
-    background-color: darkgray;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .product-section {
-    height: 580px;
-    /* width: 1440px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #8f8f8f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: 400;
+  background-color: #ffffff;
+  font-size: 24px;
+  line-height: 100%;
+  width: 300px;
+  height: 59px;
+  top: 42px;
+  left: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+li {
+  background-color: #ffffff;
+  width: 130px;
+  height: 58.4px;
+  top: 42.37px;
+  left: 793.81px;
+  font-weight: 400;
+  font-size: 24px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  display: flex;
+  padding: 1em 5em;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #c4c4c4;
+}
+
+.hero-section-left {
+  width: 20em;
+  background-color: #ededed;
+}
+
+.hero-section-left-top {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #ffffff;
+  width: 70%;
+  font-size: 18px;
+}
+
+.hero-section-left-middle {
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.hero-section-left-bottom {
+  margin: 2em;
+}
+
+.hero-section h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.hero-section h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 10px;
+  padding: 3px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.hero-btn {
+  margin-top: 10px;
+  padding: 3px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.hero-section-right {
+  background-color: #ededed;
+  width: 12em;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.hero-section-right-top {
+  margin-top: 2em;
+  padding: 1em;
+  padding-top: 85%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.trusted-section {
+  background-color: #d6d6d6;
+  height: 296px;
+  top: 724px;
+  border: 1px;
+}
+
+.trusted-section p {
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.image-gallery-img {
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app-section {
+  padding: 1em 5em;
+  background-color: #c4c4c4;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.app-section h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.app-section-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+.app-section-bottom-img img {
+  border: solid 1px rgb(41, 40, 40);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.why-section {
+  height: 808px;
+  background-color: #ededed;
+  text-align: center;
+}
+
+.why-section h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.why-section p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.why-section img {
+  height: 100px;
+  border-radius: 100%;
+}
+
+.all {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-top: 8rem;
+}
+
+.money-section {
+  padding: 1em 5em;
+
+  text-align: center;
+  background-color: #c4c4c4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.money-section h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.money-section-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.money-section-bottom-item {
+  width: 8em;
+  background-color: #ffffff;
+  font-size: 20px;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+.money-section-bottom-item p {
+  margin-top: 5em;
+}
+
+.money-section-bottom-item button {
+  width: 9em;
+  height: 2em;
+  border: none;
+}
+
+.video-section {
+  width: 100%;
+  padding: 1em 5em;
+  text-align: center;
+  background-color: #ababab;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.product-section {
+  height: 580px;
+  /* width: 1440px;
     top: 3726px; */
-    background-color: #ededed;
-  }
-  
-  .product-section h2 {
-    font-weight: 400;
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem;
-  }
-  
-  .product-section li a {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    font-weight: 400;
-  }
-  
-  .product-section li a:hover {
-    text-decoration: underline;
-  }
-  
-  .product-img {
-    display: flex;
-    justify-content: center;
-    margin: 5rem;
-    gap: 3rem;
-  }
-  
-  .list ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5rem;
-    gap: 5rem;
-  }
-  
-  .img-products {
-    height: 48px;
-    width: 48px;
-    border-radius: 100%;
-  }
+  background-color: #ededed;
+}
+
+.product-section h2 {
+  font-weight: 400;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.product-section li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.product-section li a:hover {
+  text-decoration: underline;
+}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  gap: 3rem;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+
+.img-products {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+}
